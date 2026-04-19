@@ -1,0 +1,1 @@
+{"name":"Local: array-operation","url":"d:\\phitron\\m9\\array-operation.c","tests":[{"id":1776573304634,"input":"5\n10 20 30 40 50 70 \n60 80\n3 100","output":""},{"id":1776607345763,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\phitron\\m9\\array-operation.c","group":"local","local":true}
