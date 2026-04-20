@@ -1,0 +1,1 @@
+{"name":"Local: remove_value","url":"d:\\phitron\\array-operation-m9\\remove_value.c","tests":[{"id":1776618996786,"input":"5\n10 20 30 40 50\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\phitron\\array-operation-m9\\remove_value.c","group":"local","local":true}
