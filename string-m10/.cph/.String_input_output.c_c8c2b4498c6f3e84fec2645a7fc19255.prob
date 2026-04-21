@@ -1,0 +1,1 @@
+{"name":"Local: String_input_output","url":"d:\\phitron\\string-m10\\String_input_output.c","tests":[{"id":1776740303979,"input":"HELLO","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\phitron\\string-m10\\String_input_output.c","group":"local","local":true}
