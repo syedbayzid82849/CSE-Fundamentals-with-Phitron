@@ -12,3 +12,5 @@ int main()
     printf("%d", length);
     return 0;
 }
+
+//input: HelloWorld
