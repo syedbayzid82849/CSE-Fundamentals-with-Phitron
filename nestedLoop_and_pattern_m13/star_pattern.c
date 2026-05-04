@@ -4,29 +4,29 @@
 int main() {
     int N;
     scanf("%d", &N);
-    int num = 1;
+    int star = 1;
     for(int i=1; i<=N; i++){
-        for(int j=1; j<=num; j++){
-            printf("*");
+        for(int j=1; j<=star; j++){
+            printf("* ");
         }
         printf("\n");
-        num++;
+        star++;
     }
     return 0;
 }
 
 // The above code prints a right-angled triangle star pattern. To print an inverted right-angled triangle star pattern, you can modify the code as follows:
-#include <stdio.h>
-int main() {
-    int N;
-    scanf("%d", &N);
-    int num = N;
-    for(int i=1; i<=N; i++){
-        for(int j=num; j>=1; j--){
-            printf("*");
-        }
-        printf("\n");
-        num--;
-    }
-    return 0;
-}
+// #include <stdio.h>
+// int main() {
+//     int N;
+//     scanf("%d", &N);
+//     int num = N;
+//     for(int i=1; i<=N; i++){
+//         for(int j=num; j>=1; j--){
+//             printf("*");
+//         }
+//         printf("\n");
+//         num--;
+//     }
+//     return 0;
+// }
