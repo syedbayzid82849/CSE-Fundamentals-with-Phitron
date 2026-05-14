@@ -2,7 +2,8 @@
 
 void rec(int N)
 {
-    if (N == 0) {
+    if (N == 0)
+    {
         return;
     }
     int last = N % 10;
@@ -13,8 +14,22 @@ void rec(int N)
 
 int main()
 {
-    int N;
-    scanf("%d", &N);
-    rec(N);
+    int T;
+    scanf("%d", &T);
+    
+    for (int i = 0; i < T; i++)
+    {
+        
+        int N;
+        scanf("%d", &N);
+        if(N==0)
+        {
+            printf("0\n");
+            continue;
+        }
+        rec(N);
+        printf("\n");
+    }
+
     return 0;
 }
